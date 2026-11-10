@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Savanna Brew</title>
+<style>
+  body{margin:0;font-family:Arial;background:#fffdf7}
+  nav{background:#fffaf0;display:flex;justify-content:space-between;align-items:center;padding:10px 40px;box-shadow:0 2px 5px #ddd}
+  .logo{display:flex;align-items:center;gap:8px;font-weight:bold;font-size:22px}
+  .logo small{display:block;font-size:9px;letter-spacing:1px;color:#8d6e63}
+  nav a{margin-left:15px;text-decoration:none;color:#333;font-size:14px}
+  nav a.home{background:#3e2723;color:white;padding:6px 14px;border-radius:5px}
+  .hero{height:360px;background-image:url('https://images.unsplash.com/photo-1544787219-7f47cc556762?w=1000');background-size:cover;background-position:center;position:relative;display:flex;align-items:center;padding-left:60px}
+  .hero-text{color:white;font-family:cursive;font-size:38px;line-height:1.2;text-shadow:2px 2px 6px #000;max-width:350px}
+  .btn{background:#f9c76f;color:#3e2723;padding:10px 20px;border-radius:20px;border:none;font-weight:bold;margin-top:15px;display:inline-block;text-decoration:none;font-family:Arial;font-size:14px}
+  .welcome{text-align:center;padding:30px 20px}
+  .welcome h2{margin:0;color:#3e2723}
+  .welcome p{color:#666;font-size:14px;max-width:500px;margin:10px auto}
+  .line{color:#d7ccc8}
+  .fav{text-align:center;padding:10px}
+  .fav h2{color:#3e2723}
+  .cards{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;padding:20px}
+  .card{width:210px;background:white;border-radius:8px;overflow:hidden;box-shadow:0 2px 6px #ddd;text-align:center;padding-bottom:15px}
+  .card img{width:100%;height:140px;object-fit:cover}
+  .price{background:#f9e79f;padding:4px 14px;border-radius:15px;font-size:12px;font-weight:bold;margin-top:8px;display:inline-block}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">☕ Savanna Brew <small>COFFEE - GOOD VIBES - KENYA</small></div>
+  <div>
+    <a class="home" href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Menu</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div>
+    <div class="hero-text">Brewed in Kenya.<br>Served with love.</div>
+    <a class="btn" href="#">View Our Menu →</a>
+  </div>
+</div>
+
+<div class="welcome">
+  <h2><span class="line">———</span> Welcome to Savanna Brew <span class="line">———</span></h2>
+  <p>Experience the rich taste of Kenyan coffee, freshly brewed with passion, in a cozy and welcoming space.</p>
+</div>
+
+<div class="fav">
+  <h2><span class="line">——</span> Our Favourites <span class="line">——</span></h2>
+  <div class="cards">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=400">
+      <h4>Latte</h4>
+      <span class="price">KES 320</span>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400">
+      <h4>Cappuc.</h4>
+      <span class="price">KES 300</span>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400">
+      <h4>Croissant</h4>
+      <span class="price">KES 250</span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
